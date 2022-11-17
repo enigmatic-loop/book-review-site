@@ -1,0 +1,54 @@
+header {
+    border: 1px;
+    background-color: cadetblue;
+}
+
+body {
+    background-color: lightblue;
+}
+
+html * {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 5px;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.hvr-grow {
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.hvr-grow:hover {
+    transform: scale(1.5);
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 6rem;    /* Footer height */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+}
